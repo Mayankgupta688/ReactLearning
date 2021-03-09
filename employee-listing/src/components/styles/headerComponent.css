@@ -1,0 +1,8 @@
+#header_component h1 {
+    color: purple;
+}
+
+#header_component p {
+    color: aqua;
+    font-weight: 900;   
+}
