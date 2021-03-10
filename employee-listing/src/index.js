@@ -1,14 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import WorkingWithState from "./components/classBased/WorkingWithState";
 
-import TimerComponent from "./components/TimerComponent";
 
 
-ReactDOM.render((
-    <div>
-        <TimerComponent></TimerComponent>
-    </div>
-), document.getElementById("root"));
+ReactDOM.render(<WorkingWithState></WorkingWithState>, document.getElementById("root"));
 
 
 
