@@ -1,27 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import InterpolatingData from "./components/InterpolatingData";
+import TimerComponent from "./components/TimerComponent";
 
-var employeeList = [{
-    firstName: "Random Name",
-    age: 120,
-    lastName: "Agarwal"
-}, {
-    firstName: "Random Name",
-    age: 120,
-    lastName: "Agarwal"
-}, {
-    firstName: "Random Name",
-    age: 120,
-    lastName: "Agarwal"
-}]
 
 ReactDOM.render((
     <div>
-        <InterpolatingData ></InterpolatingData>
+        <TimerComponent></TimerComponent>
     </div>
 ), document.getElementById("root"));
+
+
 
 
 
