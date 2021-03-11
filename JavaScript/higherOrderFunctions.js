@@ -22,6 +22,6 @@ console.log(newArray)
 
 
 var newDataArray = arrData.map((value) => value + 1);
-var filteredDataArray = arrData.filter((value) => value % 3 == 0);
+var filteredDataArray = arrData.filter((value) => value % 3 === 0);
 
 debugger;

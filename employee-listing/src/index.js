@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import WorkingWithState from "./components/classBased/WorkingWithState";
+import EmployeeListingDetailed from "./components/listing/EmployeeListingDetailed";
 
 
 
-ReactDOM.render(<WorkingWithState></WorkingWithState>, document.getElementById("root"));
+ReactDOM.render(<EmployeeListingDetailed></EmployeeListingDetailed>, document.getElementById("root"));
 
 
 
