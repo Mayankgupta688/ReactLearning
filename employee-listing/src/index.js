@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import EmployeeListingDetailed from "./components/listing/EmployeeListingDetailed";
+import RenderEmployee from "./components/lifecycle/RenderEmployee";
 
 
 
-ReactDOM.render(<EmployeeListingDetailed></EmployeeListingDetailed>, document.getElementById("root"));
+ReactDOM.render(<RenderEmployee></RenderEmployee>, document.getElementById("root"));
 
 
 
