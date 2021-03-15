@@ -1,10 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import RenderEmployee from "./components/lifecycle/RenderEmployee";
+import WorkingWithForms from "./components/workingWithForms/WorkingWithForms";
 
 
 
-ReactDOM.render(<RenderEmployee></RenderEmployee>, document.getElementById("root"));
+ReactDOM.render((
+  <div>
+    <WorkingWithForms></WorkingWithForms><hr/>
+  </div>
+  ), document.getElementById("root"));
 
 
 
