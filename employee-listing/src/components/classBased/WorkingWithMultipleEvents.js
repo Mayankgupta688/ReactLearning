@@ -2,7 +2,6 @@ import React from "react";
 
 export default class WorkingWithMultipleEvents extends React.Component{
   constructor(){
-    debugger;
     super();
     this.state = {
         counter : 0
@@ -10,7 +9,6 @@ export default class WorkingWithMultipleEvents extends React.Component{
   }
 
   updateCounter = (data) =>{
-    debugger;
     this.setState({
         counter  : this.state.counter + data
     })
@@ -20,7 +18,6 @@ export default class WorkingWithMultipleEvents extends React.Component{
 
 
   render(){
-    debugger;
       return (
           <div>
               <h1>
